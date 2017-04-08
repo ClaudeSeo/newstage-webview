@@ -35,6 +35,11 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
+      },
+      {
+        rel: 'shortcut icon',
+        href: require('../../assets/favicon.png'),
+        type: 'image/x-icon'
       }
     ]
   }
