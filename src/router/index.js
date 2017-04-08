@@ -5,6 +5,7 @@ import apiPlugin from '../plugin/api'
 import eventBusPlugin from '../plugin/bus'
 
 import Home from '@/components/Home'
+import ErrorPage from '@/components/ErrorPage'
 
 Vue.use(Router)
 Vue.use(apiPlugin)
@@ -20,8 +21,8 @@ export default new Router({
     },
     {
       path: '*',
-      name: 'NotFound',
-      component: Home
+      name: 'ErrorPage',
+      component: ErrorPage
     }
   ]
 })
